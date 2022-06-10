@@ -14,5 +14,11 @@ The user continues to guess until he gets the correct combination. The goal is t
 ## Mastermind Program
 This C++ program allows the user to play Mastermind using numbers to represent colors. For instance, given 7 colors, then the numbers will 1 - 7.
 
+### Workflow
+
+- How many pegs must be between 2 and 8.
+- How many colors must be between 6 and 20.
+- If the user enters something out of bounds, the program will simply replace with the minimum value if too small or the maximum value if too large.
+
 ## Demo
 ![mastermind-demo](https://user-images.githubusercontent.com/83131937/173007567-7ebd66a1-18d5-41d0-95c2-01824d1a006d.gif)
